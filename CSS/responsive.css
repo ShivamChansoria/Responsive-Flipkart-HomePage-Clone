@@ -1,0 +1,42 @@
+@media screen and (max-height: 715px) {
+  .footer {
+    position: relative;
+  }
+}
+@media screen and (max-width: 1030px) {
+  /* body{
+        background-color: red;
+    }
+     */
+  .default nav {
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    padding: 0px 20px;
+  }
+  .default nav ul li a:hover {
+    color: rgb(214, 248, 63);
+  }
+  .search {
+    margin-top: 5px;
+    padding: 0px 20px;
+  }
+  .search input {
+    width: 300px;
+    height: 18px;
+  }
+  .default nav button {
+    position: relative;
+    bottom: -8px;
+  }
+  .container {
+    height: 155vh;
+  }
+  .slider {
+    margin: 0px;
+  }
+}

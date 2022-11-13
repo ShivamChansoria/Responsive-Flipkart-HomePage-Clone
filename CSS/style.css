@@ -1,0 +1,113 @@
+header {
+  border: 5px inset yellow;
+  z-index: 1;
+  background-color: #2455f4;
+}
+.default nav {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding: 20px 10px 10px 30px;
+}
+.default nav ul {
+  display: flex;
+  align-items: center;
+}
+.default nav ul li {
+  display: inline;
+  list-style: none;
+  background-color: #2455f4;
+}
+.default nav ul li a {
+  color: rgb(159, 163, 255);
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0px 40px;
+}
+.default nav ul li a:hover {
+  color: rgb(214, 248, 63);
+  font-weight: bolder;
+}
+.search {
+  padding: 0px 40px 0px 20px;
+}
+.search input {
+  width: 350px;
+  height: 25px;
+  border-radius: 4px;
+  padding: 3px 10px;
+  text-transform: capitalize;
+}
+button {
+  border: none;
+  border-radius: 7px;
+}
+/* .btn:hover{
+    color: rgb(214, 248, 63);
+    font-weight: bolder;
+} */
+.container {
+  background-color: azure;
+  height: 195vh;
+}
+.slider {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin: 10px;
+}
+.slider img:hover {
+  cursor: pointer;
+}
+.card {
+  background-color: white;
+  margin: auto;
+  width: 90vw;
+  height: 170px;
+  font-family: "Lato", sans-serif;
+}
+.card h2 {
+  text-align: center;
+}
+.cardcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: azure;
+  overflow: scroll;
+}
+.cardbox {
+  margin: 10px 20px;
+  width: 160px;
+  background-color: white;
+}
+.cardbox img {
+  width: 160px;
+  height: 160px;
+}
+.cardbox img:hover {
+  cursor: pointer;
+  height: 190px;
+  width: 190px;
+}
+.lines {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+}
+footer {
+  background-color: #2455f4;
+  display: flex;
+  position: absolute;
+  bottom: -140vh;
+}
+
+footer .default p {
+  background-color: #2455f4;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Tangerine&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.default {
+  background-color: #2455f4;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.btn {
+  padding: 5px 13px;
+  cursor: pointer;
+  background-color: #2455f4;
+  color: white;
+  border: 2px ridge white;
+  border-radius: 7px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.textcenter {
+  text-align: center;
+}
